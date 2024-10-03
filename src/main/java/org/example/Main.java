@@ -6,11 +6,16 @@ public class Main {
     }
 
     public static void hr(String s) {
-        String res = String.format("[%80s]", s).replace(' ', '-');
+        String res = String.format("\n[%80s]", s).replace(' ', '-');
         System.out.println(res);
     }
     public static void shr(String s) {
-        String res = String.format("[%40s]", s).replace(' ', '-');
+        String res = String.format("\n[%40s]", s).replace(' ', '-');
         System.out.println(res);
     }
+    public static void ehr() {
+        String res = "\n--------------------------------";
+        System.out.println(res);
+    }
+
 }

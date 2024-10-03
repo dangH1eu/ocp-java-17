@@ -65,6 +65,8 @@ public class WorkingWithGenerics {
 
     public static void main(String[] args) {
         Main.hr("Creating Generic Classes");
+
+
         Main.hr("Understanding Type Erasure");
         Main.hr("Implementing Generic Interfaces");
         Main.hr("Writing Generic Methods");
